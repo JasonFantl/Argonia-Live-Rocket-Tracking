@@ -1,0 +1,65 @@
+body {
+    max-width: 90vw;
+    margin: auto;
+}
+
+#parent {
+    display: flex;
+}
+
+#gui {
+    flex-direction: column;
+}
+
+#input,
+#markerList {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+}
+
+#markerList {
+    display: flex;
+    flex-direction: column;
+}
+
+#mapid {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 8px;
+    background-color: rgb(143, 41, 58);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* font-size: 16px; */
+    margin: 4px 2px;
+    /* cursor: pointer; */
+}
+
+.button:hover {
+    background-color: rgb(112, 34, 47);
+}
